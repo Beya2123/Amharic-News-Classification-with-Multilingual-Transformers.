@@ -1,0 +1,66 @@
+# Core dependencies
+torch>=1.9.0
+transformers>=4.12.0
+
+# Data processing and analysis
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=0.24.0
+scipy>=1.7.0
+
+# Text processing and utilities
+tqdm>=4.62.0
+regex>=2021.8.3
+sentencepiece>=0.1.96
+tokenizers>=0.10.0
+
+# Visualization (for results and analysis)
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.3.0
+
+# Model evaluation and metrics
+evaluate>=0.1.0
+datasets>=1.12.0
+accelerate>=0.5.0
+
+# Jupyter/Colab support
+jupyter>=1.0.0
+ipython>=7.27.0
+ipywidgets>=7.6.0
+
+# Utilities
+pillow>=8.3.0
+requests>=2.26.0
+urllib3>=1.26.0
+pyyaml>=5.4.0
+
+# Data validation
+pydantic>=1.8.0
+
+# Logging
+tensorboard>=2.7.0
+wandb>=0.12.0
+
+# Additional NLP tools
+nltk>=3.6.0
+spacy>=3.1.0
+
+# Optional: For model quantization and optimization
+optimum>=1.0.0
+onnxruntime>=1.10.0
+
+# Optional: For hyperparameter optimization
+optuna>=2.10.0
+ray[tune]>=1.9.0
+
+# Optional: For model deployment
+fastapi>=0.70.0
+uvicorn>=0.15.0
+streamlit>=1.0.0
+
+# Development tools
+black>=21.8b0
+flake8>=3.9.0
+pytest>=6.2.0
+pytest-cov>=2.12.0
